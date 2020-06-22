@@ -63,7 +63,6 @@ class Home extends React.Component {
             <option value="Gossamer-Winged">Gossamer-Winged</option>
             <option value="Swallowtail">Swallowtail</option>
           </select>
-          {/* <button type="submit" className="btn btn-primary" onClick={this.filterButterflies}>Filter</button> */}
         </form>
         {buildButterflies}
       </div>
