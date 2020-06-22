@@ -33,16 +33,16 @@ class Home extends React.Component {
     ));
 
     return (
-      <div className="Home col-12 mt-3">
-        <Jumbotron>
-          <h1 className="display-3">Welcome to Butterfly Codex</h1>
+      <div className="Home col-12 mt-3 d-flex flex-wrap">
+        <Jumbotron className="col-12">
+          <h1 className="display-3 jumbo-text">Welcome to Butterfly Codex</h1>
           <hr className="my-2" />
-          <p>Help us track butterflies of the United States of America</p>
-          <p className="lead">
+          <p className="jumbo-text">Help us track butterflies of the United States of America</p>
+          <p className="lead jumbo-text">
             <Link className="btn btn-primary" to="/new-sighting">+ Sighting</Link>
           </p>
         </Jumbotron>
-        <h2>Butterflies</h2>
+        <h2 className="col-12">Butterflies</h2>
         {buildButterflies}
       </div>
     );
