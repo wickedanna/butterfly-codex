@@ -12,18 +12,31 @@ import './Auth.scss';
 class Auth extends React.Component {
   state = {
     butterflies: [],
+    selectedButterflies: [],
   }
 
   getButterflyInfo = () => {
     butterflyData.getButterflies()
       .then((butterflies) => {
-        this.setState({ butterflies });
+        this.setState({ butterflies, selectedButterflies: butterflies });
       })
       .catch((err) => console.error('could not get butterflies: ', err));
   }
 
   componentDidMount() {
     this.getButterflyInfo();
+  }
+
+  filterButterflies = (e) => {
+    e.preventDefault();
+    const { butterflies } = this.state;
+    const selectedType = e.target.value;
+    if (selectedType === 'all') {
+      this.setState({ selectedButterflies: butterflies });
+    } else {
+      const filteredButterflies = butterflies.filter((x) => x.type === selectedType);
+      this.setState({ selectedButterflies: filteredButterflies });
+    }
   }
 
   loginClickEvent = (e) => {
@@ -33,9 +46,9 @@ class Auth extends React.Component {
   }
 
   render() {
-    const { butterflies } = this.state;
+    const { selectedButterflies } = this.state;
 
-    const buildButterflies = butterflies.map((butterfly) => (
+    const buildButterflies = selectedButterflies.map((butterfly) => (
       <ButterflyCards key={butterfly.id} butterfly={butterfly} />
     ));
 
@@ -49,6 +62,15 @@ class Auth extends React.Component {
             <button className="btn btn-info" onClick={this.loginClickEvent}>Login with Google</button>
           </p>
         </Jumbotron>
+        <h2 className="col-12">Butterflies</h2>
+        <form className="col-12 butterfly-filter">
+          <select className="col-6 form-control mb-3" onChange={this.filterButterflies}>
+            <option value="all">All</option>
+            <option value="Brush-Footed">Brush-Footed</option>
+            <option value="Gossamer-Winged">Gossamer-Winged</option>
+            <option value="Swallowtail">Swallowtail</option>
+          </select>
+        </form>
         {buildButterflies}
       </div>
     );
