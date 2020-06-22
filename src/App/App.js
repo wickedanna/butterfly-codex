@@ -34,11 +34,9 @@ class App extends React.Component {
     const { authed } = this.state;
     return (
       <div className="App">
+        <MyNavbar authed={authed} />
         <h2>Butterfly Codex</h2>
-        { authed
-          ? <MyNavbar />
-          : <Auth />
-      }
+          <Auth />
       </div>
     );
   }
