@@ -1,0 +1,32 @@
+{
+  "location1": {
+    "city": "Nashville",
+    "state": "Tennessee",
+    "zipCode": 37214
+  },
+  "location2": {
+    "city": "San Fransisco",
+    "state": "California",
+    "zipCode": 94106
+  },
+  "location3": {
+    "city": "Boston",
+    "state": "Massachusetts",
+    "zipCode": 12116
+  },
+  "location4": {
+    "city": "Austin",
+    "state": "Texas",
+    "zipCode": 37214
+  },
+  "location5": {
+    "city": "Cheyenne",
+    "state": "Wyoming",
+    "zipCode": 82001
+  },
+  "location6": {
+    "city": "Cedar Rapids",
+    "state": "Iowa",
+    "zipCode": 52227
+  }
+}
