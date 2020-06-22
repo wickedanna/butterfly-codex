@@ -1,0 +1,67 @@
+{
+  "butterfly1": {
+    "commonName": "Spicebush Swallowtail",
+    "scientificName": "Papilio troilus",
+    "type": "Swallowtail",
+    "adultAppearance": "Males are primarily black and brown in color, with a blue-green (male) and blue (female) half-moon shaped splotch on the hindwing. The hindwing has cream-yellow moon shaped spots on the edges of the wings, and bright orange spots at the base of the wings. The underside of the hindwing has dual rows of orange spots with blue or green coloring in between. The forewing has a border of cream colored oval shapes spots.",
+    "larvaeAppearance": "Spicebush Swallowtail eggs are a greenish white, young larvae are brown, larvae in later stages are yellow-green, and pupae (chrysalis) is brown in winter months or green in summer.",
+    "diet": "Joe-Pye weed, jewelweed, honeysuckle, thistle, milkweed, azalea, dogbane, sweet pepperbush",
+    "preferredClimate": "The Spicebush Swallowtail prefers deciduous woods or woody swamps.",
+    "commonlyFound": "These butterflies are mostly found in the Eastern United States of America.",
+    "mainImage": "https://www.animalspot.net/wp-content/uploads/2012/12/Spicebush-Swallowtail-Image.jpg",
+    "lifespan": "It takes roughly one month to go from egg to adult, and adult lifespan is 2 days to 2 weeks depending on resources and predator avoidance.",
+    "activeWhen": "Most active between April - October, but can be active as early as March and as late as November in warmer climates like Florida."
+  },
+    "butterfly2": {
+    "commonName": "Pipevine Swallowtail",
+    "scientificName": "Battus Philenor",
+    "type": "Swallowtail",
+    "adultAppearance": "The dorsal (upper) wings are black and a vibrant iridescent blue, which is duller on the females of the species. The ventral (underside) of the wings showcases bright orange spots surrounded in blue. On the dorsal and ventral sides, cream colored spots dot the edges of the wings.",
+    "larvaeAppearance": "Pipevine Swallowtail eggs are red to orange and small. The larvae is dark brown to black, or red in high temperature areas, and has bright orange spots on the ends of tubercles that line their bodies in rows. The pupae (chrysalis) are brown or green and their sides expand into a winged appearance with distinctive purple edges.",
+    "diet": "thistle flowers, bergamot, lilac, viper’s bugloss, phlox, teasel, azaleas, dame’s-rocket, petunias, verbenas, lupines, Yerba Santa, yellow star thistle",
+    "preferredClimate": "These butterflies enjoy temperate climates like open grasslands, meadows, and backyard gardens.",
+    "commonlyFound": "Pipevine Swallowtails are common across the United State of America with the highest population density found in the Eastern United States.",
+    "mainImage": "https://assets.rbl.ms/20514321/origin.jpg",
+    "lifespan": "The egg stage of this species is 4 to 10 days long, depending on temperature and the host plant. The larval stage lasts 3-4 weeks and the pupal stage is 10 to 20 days. Adults typically live anywhere from 6-14 days.",
+    "activeWhen": "These butterflies are most active during spring and summer months, spanning as early as March and as late as October"
+  },
+    "butterfly3": {
+    "commonName": "Silvery Blue",
+    "scientificName": "Glaucopsyche lygdamus",
+    "type": "Gossamer-Winged",
+    "adultAppearance": "The dorsal (upper) wings are blue with a darker border and white fringe. The females of the Silvery Blue species tend to be darker blue and have a wider border at the edges. The underside of the wings is a gray-brown color with a row of white-ringed black spots.",
+    "larvaeAppearance": "The eggs of the Silvery Blue are a pale blue-green, the larvae are small, rugged and green with a maroon stripe. The pupae (chrysalis) are light brown with darker brown streaks.",
+    "diet": "Fiddlneck, forget-me-nots, Asteraceae",
+    "preferredClimate": "Silvery Blue butterflies prefer meadows, open woods, coastal dunes, and moist rocky woods for their habitat.",
+    "commonlyFound": "These butterflies are commonly found in North America, from Central Alaska to Southern California, as well as along the Northern United States and down to Georgia.",
+    "mainImage": "https://www.butterflyidentification.com/wp-content/uploads/2018/10/Silvery-Blue-Butterfly-Images.jpg",
+    "lifespan": "The adult lifespan of the Silvery Blue is 2-3 weeks. The pupae hibernates over winter.",
+    "activeWhen": "This species of butterfly tends to be active during March to June in low elevations, and June to August in high elevations."
+  },
+    "butterfly4": {
+    "commonName": "Mourning Cloak",
+    "scientificName": "Nymphalis antiopa",
+    "type": "Brush-Footed",
+    "adultAppearance": "These butterflies have uneven wing edges. Their upper-wings are a dark purple-black with a bright yellow border and a row of iridescent blue spots just inside the yellow border. The underside of the wings are dark brown to black with cream-toned borders that highlight the ragged-looking wing edge.",
+    "larvaeAppearance": "The eggs of the Mourning Cloak are amber-yellow or pale olive green when laid, but change to lilac-pink, then darken to almost black before hatching. Larvae are spiny black and black with 8 red-orange dots down its back. Pupae are tan or brown-gray with two rows of sharp, red-tipped spikes protruding, a “beak”, and two head horns.",
+    "diet": "tree(oak) sap, sugary over-ripe fruit",
+    "preferredClimate": "These butterflies prefer woods and colder mountainous areas due to their hibernation habits.",
+    "commonlyFound": "The Mourning Cloak can be found throughout the world, but is mostly found in North America and northern Eurasia.",
+    "mainImage": "https://st.hzcdn.com/simgs/3a01f2770706bd68_4-1168/home-design.jpg",
+    "lifespan": "These butterflies typically live 10-12 months, the longest lifespan of all known butterflies.",
+    "activeWhen": "Eggs are laid, then emerge as butterflies in June-July. Adult butterflies hibernate over winter or fly south."
+  },
+    "butterfly5": {
+    "commonName": "Monarch",
+    "scientificName": "Danaus plexippus",
+    "type": "Brush-Footed",
+    "adultAppearance": "The upper side of the male’s wings are bright orange, and the female’s are tawny-orange. Both sexes have wide black borders and black veins with white spots on the borders. The under side of the wings are similar in pattern to the tops, but have a muted, yellow-brown color and larger white spots.",
+    "larvaeAppearance": "The eggs of the Monarch are cream or pale green in color, are ovate in shape and have raised ridges on them. The larvae starts out pale green and translucent, but develops a banded pattern of white, yellow, and black with short bristles and prolegs. The pupae (chrysalis) are at first long, soft, and green, but develops to be an opaque, pale-green with small golden dots near the bottom and a gold-an-black rim around the top side. A few hours before the Monarch emerges from the chrysalis as an adult butterfly, the chrysalis becomes transparent and you can see the fully formed butterfly inside.",
+    "diet": "milkweed, dogbane, lilac, red clover, lantana, thistle, goldenrods, blazing stars, ironweed, tickseed sunflower",
+    "preferredClimate": "The Monarch prefers living in open habitats like fields, meadows, weedy areas, marshes and roadsides.",
+    "commonlyFound": "The Monarch is found in southern Canada and all throughout the United States of America (including Hawaii), South America and Australia.",
+    "mainImage": "https://images.unsplash.com/photo-1591876875646-f54e64542c0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80",
+    "lifespan": "The eggs take 3 to 8 days to develop and hatch, and the larvae stage can take 15 to 25 days to develop to its final stage. The pupae stage typically lasts anywhere from 8 to 15 days, while the adult lives 2 to 5 weeks during mating season. Monarchs born in late summer or fall do not breed until after overwinding migration and can live up to 6-8 months.",
+    "activeWhen": "Monarch butterflies are most active during spring and summer months, laying eggs and breeding during these seasons. They do spend winters in warmer climates, in Mexico and the California coast especially. When spring comes, they migrate north and lay eggs along the way."
+  }
+}
