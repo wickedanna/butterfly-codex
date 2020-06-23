@@ -53,7 +53,8 @@ class Auth extends React.Component {
     ));
 
     return (
-      <div className="Auth col-12 mt-3 d-flex flex-wrap">
+      <div className="Auth container">
+        <div className="col-12 mt-3 d-flex flex-wrap">
         <Jumbotron className="col-12">
           <h1 className="display-3">Welcome to Butterfly Codex</h1>
           <hr className="my-2" />
@@ -72,6 +73,7 @@ class Auth extends React.Component {
           </select>
         </form>
         {buildButterflies}
+        </div>
       </div>
     );
   }
