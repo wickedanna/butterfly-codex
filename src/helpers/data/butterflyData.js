@@ -19,4 +19,6 @@ const getButterflies = () => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getButterflies };
+const getSingleButterfly = (butterflyId) => axios.get(`${baseUrl}/butterflies/${butterflyId}.json`);
+
+export default { getButterflies, getSingleButterfly };

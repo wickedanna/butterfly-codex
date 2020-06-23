@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Jumbotron } from 'reactstrap';
 
@@ -9,6 +10,10 @@ import ButterflyCards from '../../shared/ButterflyCards/ButterflyCards';
 import './Home.scss';
 
 class Home extends React.Component {
+  static propTypes = {
+    authed: PropTypes.bool.isRequired,
+  }
+
   state = {
     butterflies: [],
     selectedButterflies: [],
@@ -42,11 +47,12 @@ class Home extends React.Component {
     const { selectedButterflies } = this.state;
 
     const buildButterflies = selectedButterflies.map((butterfly) => (
-      <ButterflyCards key={butterfly.id} butterfly={butterfly} />
+      <ButterflyCards key={butterfly.id} butterfly={butterfly} authed={this.props}/>
     ));
 
     return (
-      <div className="Home col-12 mt-3 d-flex flex-wrap">
+      <div className="Home container">
+        <div className="col-12 mt-3 d-flex flex-wrap">
         <Jumbotron className="col-12">
           <h1 className="display-3 jumbo-text">Welcome to Butterfly Codex</h1>
           <hr className="my-2" />
@@ -65,6 +71,7 @@ class Home extends React.Component {
           </select>
         </form>
         {buildButterflies}
+        </div>
       </div>
     );
   }
