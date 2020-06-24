@@ -1,28 +1,52 @@
 import React from 'react';
 
 import butterflyData from '../../../helpers/data/butterflyData';
+// import sightingsData from '../../../helpers/data/sightingsData';
+import smash from '../../../helpers/data/smash';
+
+import Sightings from '../../shared/Sightings/Sightings';
 
 import './SingleButterfly.scss';
 
 class SingleButterfly extends React.Component {
   state = {
     butterfly: {},
+    sightings: [],
   }
 
-  componentDidMount() {
+  getSingleButterfly = () => {
     const { butterflyId } = this.props.match.params;
     butterflyData.getSingleButterfly(butterflyId)
       .then((response) => {
         this.setState({ butterfly: response.data });
       })
-      .catch((err) => console.error('could not get single butterfly', err));
+      .catch((err) => console.error('could not get single butterfly: ', err));
+  }
+
+  getButterflySightings = () => {
+    const { butterflyId } = this.props.match.params;
+    smash.getSightingLocations(butterflyId)
+      .then((sightings) => {
+        this.setState({ sightings });
+      })
+      .catch((err) => console.error('could not get sightings by butterfly id: ', err));
+  }
+
+  componentDidMount() {
+    this.getSingleButterfly();
+    this.getButterflySightings();
   }
 
   render() {
-    const { butterfly } = this.state;
+    const { butterfly, sightings } = this.state;
+
+    const buildSightings = sightings.map((sighting) => (
+      <Sightings key={sighting.id} sighting={sighting} />
+    ));
+
     return (
-      <div className="SingleButterfly col-12">
-        <div className="d-flex flex-wrap">
+      <div className="SingleButterfly container">
+        <div className="col-12 mt-3 d-flex flex-wrap">
         <div className="main-image-container">
           <img src={butterfly.mainImage} className="main-image" alt="please refer to description below"/>
         </div>
@@ -41,6 +65,10 @@ class SingleButterfly extends React.Component {
         <p className="mx-3 basic-info">{butterfly.preferredClimate} {butterfly.commonlyFound}</p>
         <h4 className="mx-3 basic-info">Lifespan</h4>
         <p className="mx-3 basic-info">{butterfly.lifespan} {butterfly.activeWhen}</p>
+        </div>
+        <div className="butterfly-sightings container d-flex flex-wrap">
+          <h3 className="mx-3 single-butterfly-title">Sightings:</h3>
+        {buildSightings}
         </div>
       </div>
     );
