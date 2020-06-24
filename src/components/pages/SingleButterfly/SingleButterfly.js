@@ -1,7 +1,8 @@
 import React from 'react';
 
 import butterflyData from '../../../helpers/data/butterflyData';
-import sightingsData from '../../../helpers/data/sightingsData';
+// import sightingsData from '../../../helpers/data/sightingsData';
+import smash from '../../../helpers/data/smash';
 
 import Sightings from '../../shared/Sightings/Sightings';
 
@@ -24,7 +25,7 @@ class SingleButterfly extends React.Component {
 
   getButterflySightings = () => {
     const { butterflyId } = this.props.match.params;
-    sightingsData.getSightingsByButterflyId(butterflyId)
+    smash.getSightingLocations(butterflyId)
       .then((sightings) => {
         this.setState({ sightings });
       })

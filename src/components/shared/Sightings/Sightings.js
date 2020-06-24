@@ -11,10 +11,16 @@ class Sightings extends React.Component {
 
   render() {
     const { sighting } = this.props;
-    console.error('sighting: ', sighting);
     return (
       <div className="Sightings">
-        <p>{sighting.locationId}</p>
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">{sighting.butterflyId}</h5>
+            <p className="card-text">{sighting.city}, {sighting.state}</p>
+            <p className="card-text">{sighting.dateSeen}</p>
+            <p className="card-text">Quantity: {sighting.quantity}</p>
+         </div>
+        </div>
       </div>
     );
   }
