@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Jumbotron } from 'reactstrap';
 
+import authData from '../../../helpers/data/authData';
 import butterflyData from '../../../helpers/data/butterflyData';
 
 import ButterflyCards from '../../shared/ButterflyCards/ButterflyCards';
@@ -10,11 +10,8 @@ import ButterflyCards from '../../shared/ButterflyCards/ButterflyCards';
 import './Home.scss';
 
 class Home extends React.Component {
-  static propTypes = {
-    authed: PropTypes.bool.isRequired,
-  }
-
   state = {
+    authed: false,
     butterflies: [],
     selectedButterflies: [],
   }
@@ -28,6 +25,9 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
+    if (authData.getUid()) {
+      this.setState({ authed: true });
+    }
     this.getButterflyInfo();
   }
 
@@ -44,10 +44,10 @@ class Home extends React.Component {
   }
 
   render() {
-    const { selectedButterflies } = this.state;
+    const { selectedButterflies, authed } = this.state;
 
     const buildButterflies = selectedButterflies.map((butterfly) => (
-      <ButterflyCards key={butterfly.id} butterfly={butterfly} authed={this.props}/>
+      <ButterflyCards key={butterfly.id} butterfly={butterfly} authed={authed}/>
     ));
 
     return (

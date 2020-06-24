@@ -49,7 +49,7 @@ class Auth extends React.Component {
     const { selectedButterflies } = this.state;
 
     const buildButterflies = selectedButterflies.map((butterfly) => (
-      <ButterflyCards key={butterfly.id} butterfly={butterfly} />
+      <ButterflyCards key={butterfly.id} butterfly={butterfly} authed={false}/>
     ));
 
     return (
