@@ -45,8 +45,8 @@ class SingleButterfly extends React.Component {
     ));
 
     return (
-      <div className="SingleButterfly col-12">
-        <div className="d-flex flex-wrap">
+      <div className="SingleButterfly container">
+        <div className="col-12 mt-3 d-flex flex-wrap">
         <div className="main-image-container">
           <img src={butterfly.mainImage} className="main-image" alt="please refer to description below"/>
         </div>
@@ -66,7 +66,8 @@ class SingleButterfly extends React.Component {
         <h4 className="mx-3 basic-info">Lifespan</h4>
         <p className="mx-3 basic-info">{butterfly.lifespan} {butterfly.activeWhen}</p>
         </div>
-        <div className="butterfly-sightings">
+        <div className="butterfly-sightings container d-flex flex-wrap">
+          <h3 className="mx-3 single-butterfly-title">Sightings:</h3>
         {buildSightings}
         </div>
       </div>
