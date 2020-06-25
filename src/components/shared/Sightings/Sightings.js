@@ -16,6 +16,7 @@ class Sightings extends React.Component {
       <div className="Sightings d-flex flex-wrap col-md-4">
         <div className="card my-2 col-sm-12">
          <div className="card-body butterfly-card-text">
+            <h5 className="card-title">{sighting.butterflyCommonName}</h5>
             <p className="card-text">{sighting.city}, {sighting.state}</p>
             <p className="card-text">{sighting.dateSeen}</p>
             <p className="card-text">Quantity: {sighting.quantity}</p>

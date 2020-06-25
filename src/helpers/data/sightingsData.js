@@ -3,8 +3,8 @@ import apiKeys from '../apiKeys.json';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getSightings = () => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/sightings.json`)
+const getSightingsByUid = (uid) => new Promise((resolve, reject) => {
+  axios.get(`${baseUrl}/sightings.json?orderBy="uid"&equalTo="${uid}"`)
     .then((response) => {
       const allSightings = response.data;
       const sightings = [];
@@ -35,4 +35,4 @@ const getSightingsByButterflyId = (butterflyId) => new Promise((resolve, reject)
     .catch((err) => reject(err));
 });
 
-export default { getSightings, getSightingsByButterflyId };
+export default { getSightingsByUid, getSightingsByButterflyId };

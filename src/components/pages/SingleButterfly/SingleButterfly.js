@@ -25,7 +25,7 @@ class SingleButterfly extends React.Component {
 
   getButterflySightings = () => {
     const { butterflyId } = this.props.match.params;
-    smash.getSightingLocations(butterflyId)
+    smash.getFinalSightingsWithButterflyId(butterflyId)
       .then((sightings) => {
         this.setState({ sightings });
       })
