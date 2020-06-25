@@ -14,7 +14,7 @@ class MySightings extends React.Component {
 
   getSigtingsInfo = () => {
     const currentUid = authData.getUid();
-    smash.getSightingByUidLocation(currentUid)
+    smash.getFinalSightingsWithUid(currentUid)
       .then((sightings) => {
         this.setState({ sightings });
       })
