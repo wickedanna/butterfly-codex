@@ -35,4 +35,6 @@ const getSightingsByButterflyId = (butterflyId) => new Promise((resolve, reject)
     .catch((err) => reject(err));
 });
 
-export default { getSightingsByUid, getSightingsByButterflyId };
+const addSighting = (newSighting) => axios.post(`${baseUrl}/sightings.json`, newSighting);
+
+export default { getSightingsByUid, getSightingsByButterflyId, addSighting };
