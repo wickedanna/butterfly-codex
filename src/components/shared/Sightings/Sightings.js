@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import sightingShape from '../../../helpers/propz/sightingShape';
 
@@ -11,6 +12,7 @@ class Sightings extends React.Component {
 
   render() {
     const { sighting } = this.props;
+    const editLink = `/edit/${sighting.id}`;
 
     return (
       <div className="Sightings d-flex flex-wrap col-md-4">
@@ -20,6 +22,7 @@ class Sightings extends React.Component {
             <p className="card-text">{sighting.city}, {sighting.state}</p>
             <p className="card-text">{sighting.dateSeen}</p>
             <p className="card-text">Quantity: {sighting.quantity}</p>
+            <Link className="btn btn-primary" to={editLink}><i className="fas fa-pencil-alt"></i></Link>
           </div>
         </div>
       </div>
