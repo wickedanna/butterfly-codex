@@ -90,7 +90,7 @@ class EditSighting extends React.Component {
       quantity: sightingQuantity * 1,
       uid: authData.getUid(),
     };
-    sightingsData.addSighting(sightingId, updatedSighting)
+    sightingsData.updateSighting(sightingId, updatedSighting)
       .then(() => this.props.history.push('/my-sightings'))
       .catch((err) => console.error('could not save new sighting: ', err));
   }
