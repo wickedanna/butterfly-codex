@@ -37,4 +37,11 @@ const getSightingsByButterflyId = (butterflyId) => new Promise((resolve, reject)
 
 const addSighting = (newSighting) => axios.post(`${baseUrl}/sightings.json`, newSighting);
 
-export default { getSightingsByUid, getSightingsByButterflyId, addSighting };
+const deleteSighting = (sightingId) => axios.delete(`${baseUrl}/sightings/${sightingId}.json`);
+
+export default {
+  getSightingsByUid,
+  getSightingsByButterflyId,
+  addSighting,
+  deleteSighting,
+};

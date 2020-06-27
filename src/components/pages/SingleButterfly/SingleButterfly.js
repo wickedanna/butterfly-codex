@@ -1,7 +1,7 @@
 import React from 'react';
 
 import butterflyData from '../../../helpers/data/butterflyData';
-// import sightingsData from '../../../helpers/data/sightingsData';
+import sightingsData from '../../../helpers/data/sightingsData';
 import smash from '../../../helpers/data/smash';
 
 import Sightings from '../../shared/Sightings/Sightings';
@@ -37,11 +37,17 @@ class SingleButterfly extends React.Component {
     this.getButterflySightings();
   }
 
+  removeSighting = (sightingId) => {
+    sightingsData.deleteSighting(sightingId)
+      .then(() => this.getButterflySightings())
+      .catch((err) => console.error('could not delete sighting', err));
+  }
+
   render() {
     const { butterfly, sightings } = this.state;
 
     const buildSightings = sightings.map((sighting) => (
-      <Sightings key={sighting.id} sighting={sighting} />
+      <Sightings key={sighting.id} sighting={sighting} removeSighting={this.removeSighting} />
     ));
 
     return (
