@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .SingleButterfly {
   display: block;
   margin: 0;
@@ -6,13 +8,31 @@
     width: 100%;
   }
   .main-image {
+    margin: 0;
+    padding: 0;
     width: 100%;
   }
   .single-butterfly-title {
     margin-top: 1em;
     width: 100%;
+    font-family: $noto-title;
+    font-weight: 700;
   }
-  .basic-info {
+  .basic-info-title {
+    margin-top: 1em;
     width: 100%;
+    font-family: $noto-title;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .basic-info-subtitle {
+    font-family: $noto-title;
+    font-size: 1.25em;
+  }
+  .basic-info-text {
+    width: 100%;
+    font-family: $merriweather;
+    font-weight: 400;
+    font-size: .95em;
   }
 }
