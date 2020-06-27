@@ -59,8 +59,7 @@ class MyNavbar extends React.Component {
 
     return (
       <div className="MyNavbar">
-        {/* <button className="btn btn-danger" onClick={this.logMeOut}>Logout</button> */}
-        <Navbar color="light" light expand="md">
+        <Navbar dark expand="md">
         <NavbarBrand tag={RRNavLink} to="/home">Butterfly Codex</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={isOpen} navbar>

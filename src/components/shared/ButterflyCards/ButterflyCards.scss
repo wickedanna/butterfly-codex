@@ -1,5 +1,11 @@
+@import '../../../styles/variables';
+
 .ButterflyCards {
   display: block;
+  .butterfly-card {
+    background-color: $light-purple;
+    border: 1px $mid-purple solid;
+  }
   .butterfly-card-text {
     h5 {
       text-align: left;

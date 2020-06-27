@@ -1,9 +1,20 @@
+@import './events';
 @import './variables';
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: $favColor!important;
+  background-color: $dark-purple!important;
   margin: 0;
   padding: 0;
+  .title {
+    color: white;
+  }
+  .jumbotron {
+    background-color: $light-purple;
+    border: 1px $mid-purple solid;
+  }
+  .btn-yellow {
+    @include yellow-buttons;
+  }
 }
