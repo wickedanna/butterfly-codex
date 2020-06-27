@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import authData from '../../../helpers/data/authData';
@@ -14,6 +15,7 @@ class Sightings extends React.Component {
 
   render() {
     const { sighting, removeSighting } = this.props;
+    const editLink = `/edit/${sighting.id}`;
     const uid = authData.getUid();
 
     return (
@@ -26,7 +28,12 @@ class Sightings extends React.Component {
             <p className="card-text">Quantity: {sighting.quantity}</p>
             {
               sighting.uid === uid
-                ? <button className="btn btn-danger" onClick={() => removeSighting(sighting.id)}><i className="fas fa-trash-alt"></i></button>
+                ? (
+                  <React.Fragment>
+                  <Link className="btn btn-warning m-1" to={editLink}><i className="fas fa-pencil-alt"></i></Link>
+                  <button className="btn btn-danger m-1" onClick={() => removeSighting(sighting.id)}><i className="fas fa-trash-alt"></i></button>
+                  </React.Fragment>
+                )
                 : ''
             }
           </div>
