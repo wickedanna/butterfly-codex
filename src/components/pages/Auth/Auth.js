@@ -56,9 +56,9 @@ class Auth extends React.Component {
       <div className="Auth container">
         <div className="col-12 mt-3 d-flex flex-wrap">
         <Jumbotron className="col-12">
-          <h1 className="display-3">Welcome to Butterfly Codex</h1>
+          <h1 className="display-3 jumbo-text-title">Welcome to Butterfly Codex</h1>
           <hr className="my-2" />
-          <p>Help us track butterflies of the United States of America</p>
+          <p className="jumbo-text">Help us track butterflies of the United States of America</p>
           <p className="lead">
             <button className="btn btn-info" onClick={this.loginClickEvent}>Login with Google</button>
           </p>

@@ -1,16 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
+import authData from '../../../helpers/data/authData';
 import sightingShape from '../../../helpers/propz/sightingShape';
 
 import './Sightings.scss';
 
 class Sightings extends React.Component {
   static propTypes = {
+    removeSighting: PropTypes.func.isRequired,
     sighting: sightingShape.sightingShape,
   }
 
   render() {
-    const { sighting } = this.props;
+    const { sighting, removeSighting } = this.props;
+    const uid = authData.getUid();
 
     return (
       <div className="Sightings d-flex flex-wrap col-md-4">
@@ -20,6 +24,11 @@ class Sightings extends React.Component {
             <p className="card-text">{sighting.city}, {sighting.state}</p>
             <p className="card-text">{sighting.dateSeen}</p>
             <p className="card-text">Quantity: {sighting.quantity}</p>
+            {
+              sighting.uid === uid
+                ? <button className="btn btn-danger" onClick={() => removeSighting(sighting.id)}><i className="fas fa-trash-alt"></i></button>
+                : ''
+            }
           </div>
         </div>
       </div>
