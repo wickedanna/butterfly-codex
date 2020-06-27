@@ -1,3 +1,7 @@
+@import '../styles/variables';
+
 .App {
   display: block;
+  font-family: $merriweather;
+  background-color: $favColor;
 }
