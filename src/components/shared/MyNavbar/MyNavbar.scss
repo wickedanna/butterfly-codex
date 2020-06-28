@@ -1,3 +1,9 @@
+@import '../../../styles/variables';
+
 .MyNavbar {
   display: block;
+  Nav {
+    background-color: $dark-purple;
+    color: white;
+  }
 }

@@ -1,3 +1,10 @@
+@import '../../../styles/variables';
+
 .Sightings {
   display: block;
+  color: black;
+  background-color: $mid-purple;
+  .sighting-card {
+    background-color: $light-purple;
+  }
 }

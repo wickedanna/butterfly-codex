@@ -2,17 +2,22 @@
 
 .SingleButterfly {
   display: block;
-  margin: 0;
-  padding: 0;
-  .main-image-container {
-    width: 100%;
+  padding: .5em;
+  .butterfly-info {
+    background-color: $light-purple;
+    border-radius: 1em;
+    padding: 1em;
   }
-  .main-image {
+  .main-image-container {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  .single-butterfly-title {
+  .main-image {
+    width: 100%;
+    border-radius: 1em;
+  }
+  .single-butterfly-title, .butterfly-sightings-title {
     margin-top: 1em;
     width: 100%;
     font-family: $noto-title;
@@ -34,5 +39,8 @@
     font-family: $merriweather;
     font-weight: 400;
     font-size: .95em;
+  }
+  .butterfly-sightings-title {
+    color: white;
   }
 }

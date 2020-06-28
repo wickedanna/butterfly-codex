@@ -53,15 +53,15 @@ class Home extends React.Component {
     return (
       <div className="Home container">
         <div className="col-12 mt-3 d-flex flex-wrap">
-        <Jumbotron className="col-12">
+        <Jumbotron className="col-12 jumbotron">
           <h1 className="display-3 jumbo-text-title">Welcome to Butterfly Codex</h1>
           <hr className="my-2" />
           <p className="jumbo-text">Help us track butterflies of the United States of America</p>
           <p className="lead jumbo-text">
-            <Link className="btn btn-primary" to="/new-sighting">+ Sighting</Link>
+            <Link className="btn btn-yellow" to="/new-sighting">+ Sighting</Link>
           </p>
         </Jumbotron>
-        <h2 className="col-12">Butterflies</h2>
+        <h2 className="col-12 title">Butterflies</h2>
         <form className="col-12 butterfly-filter">
           <select className="col-sm-12 col-md-6 col-lg-4 form-control mb-3" onChange={this.filterButterflies}>
             <option value="all">All</option>

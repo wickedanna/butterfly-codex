@@ -1,3 +1,15 @@
+@import '../../../styles/variables';
+
 .EditSighting {
   display: block;
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  .edit-form {
+    background-color: $light-purple;
+    border-radius: 1em;
+    padding: 1em;
+    margin: auto;
+  }
 }

@@ -1,0 +1,7 @@
+@mixin yellow-buttons {
+  background-color: $yellow;
+  border: 1px $mid-purple solid;
+  &:hover {
+    background-color: #E4AC11;
+  }
+}
