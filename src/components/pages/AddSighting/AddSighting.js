@@ -97,11 +97,12 @@ class AddSighting extends React.Component {
     ));
 
     return (
-      <div className="AddSighting">
-        <h1>Add Sighting</h1>
-        <form>
+      <div className="AddSighting d-flex flex-wrap container">
+        <h1 className="col-12">Add Sighting</h1>
+        <form className="col-sm-12 col-md-10 col-lg-6">
   <div className="form-group">
     <label htmlFor="sighting-butterfly">Which butterfly did you see?</label>
+    <br />
     <select id="sighting-butterfly" value={sightingButterflyId} onChange={this.butterflyChange}>
       <option>Select Butterfly</option>
       {butterflyOptions}
@@ -109,6 +110,7 @@ class AddSighting extends React.Component {
   </div>
   <div className="form-group">
     <label htmlFor="sighting-location">Where did you spot this butterfly?</label>
+    <br />
     <select id="sighting-location" value={sightingLocationId} onChange={this.locationChange}>
       <option>Select Location</option>
       {locationOptions}
@@ -116,10 +118,12 @@ class AddSighting extends React.Component {
   </div>
   <div className="form-group">
     <label htmlFor="sighting-date">When did you see it?</label>
+    <br />
     <input type="date" className="form-control" id="sighting-date" value={sightingDate} onChange={this.dateChange}/>
   </div>
   <div className="form-group">
     <label htmlFor="sighting-quantity">How many did you spot?</label>
+    <br />
     <input type="number" className="form-control" id="sighting-quantity" value={sightingQuantity} onChange={this.quantityChange}/>
   </div>
   <button type="submit" className="btn btn-primary" onClick={this.saveSighting}>Save Sighting</button>

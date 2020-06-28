@@ -19,8 +19,8 @@ class Sightings extends React.Component {
     const uid = authData.getUid();
 
     return (
-      <div className="Sightings d-flex flex-wrap col-md-4">
-        <div className="card my-2 col-sm-12 sighting-card">
+      <div className="Sightings col-sm-12 col-md-4">
+        <div className="card my-2 sighting-card">
          <div className="card-body">
             <h5 className="card-title">{sighting.butterflyCommonName}</h5>
             <p className="card-text">{sighting.city}, {sighting.state}</p>
