@@ -40,7 +40,7 @@ class MySightings extends React.Component {
     ));
 
     return (
-      <div className="MySightings container col-12">
+      <div className="MySightings mt-3 container col-12">
         <h1 >My Sightings</h1>
         <div className="my-sightings d-flex flex-wrap">
         {buildSightings}

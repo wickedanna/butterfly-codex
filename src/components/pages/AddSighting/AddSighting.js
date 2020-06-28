@@ -97,7 +97,7 @@ class AddSighting extends React.Component {
     ));
 
     return (
-      <div className="AddSighting d-flex flex-wrap container">
+      <div className="AddSighting mt-3 d-flex flex-wrap container">
         <h1 className="col-12">Add Sighting</h1>
         <form className="col-sm-12 col-md-10 col-lg-6">
   <div className="form-group">

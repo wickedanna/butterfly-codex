@@ -113,7 +113,7 @@ class EditSighting extends React.Component {
       <option key={location.id} value={location.id}>{location.city}, {location.state}</option>
     ));
     return (
-      <div className="EditSighting d-flex flex-wrap container">
+      <div className="EditSighting mt-3 d-flex flex-wrap container">
         <h1 className="col-12">Edit Sighting</h1>
         <form className="edit-form col-sm-12 col-md-10 col-lg-6">
   <div className="form-group">
