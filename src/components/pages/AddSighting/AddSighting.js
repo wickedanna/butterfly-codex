@@ -126,7 +126,7 @@ class AddSighting extends React.Component {
     <br />
     <input type="number" className="form-control" id="sighting-quantity" value={sightingQuantity} onChange={this.quantityChange}/>
   </div>
-  <button type="submit" className="btn btn-primary" onClick={this.saveSighting}>Save Sighting</button>
+  <button type="submit" className="btn btn-yellow" onClick={this.saveSighting}>Save Sighting</button>
 </form>
       </div>
     );

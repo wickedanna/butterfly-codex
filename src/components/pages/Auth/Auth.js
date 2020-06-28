@@ -60,7 +60,7 @@ class Auth extends React.Component {
           <hr className="my-2" />
           <p className="jumbo-text">Help us track butterflies of the United States of America</p>
           <p className="lead">
-            <button className="btn btn-info" onClick={this.loginClickEvent}>Login with Google</button>
+            <button className="btn btn-yellow" onClick={this.loginClickEvent}>Login with Google</button>
           </p>
         </Jumbotron>
         <h2 className="col-12 title">Butterflies</h2>
