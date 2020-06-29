@@ -2,70 +2,70 @@
   "sighting1": {
     "locationId": "location1",
     "butterflyId": "butterfly3",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2018-30-04",
     "quantity": 1,
     "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
   },
   "sighting2": {
     "locationId": "location3",
     "butterflyId": "butterfly2",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2020-14-04",
     "quantity": 1,
     "uid": "12345"
   },
   "sighting3": {
     "locationId": "location5",
     "butterflyId": "butterfly3",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2019-17-06",
     "quantity": 1,
     "uid": "12345"
   },
   "sighting4": {
     "locationId": "location6",
     "butterflyId": "butterfly4",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2017-31-05",
     "quantity": 1,
     "uid": "12345"
   },
   "sighting5": {
     "locationId": "location4",
     "butterflyId": "butterfly3",
-    "dateSeen": "06/23/2018",
+    "dateSeen": "2018-23-06",
     "quantity": 1,
     "uid": "12345"
   },
   "sighting6": {
     "locationId": "location2",
     "butterflyId": "butterfly1",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2019-17-06",
     "quantity": 1,
     "uid": "12345"
   },
   "sighting7": {
     "locationId": "location1",
     "butterflyId": "butterfly2",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2019-19-05",
     "quantity": 1,
     "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
   },
   "sighting8": {
     "locationId": "location3",
     "butterflyId": "butterfly5",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2019-10-08",
     "quantity": 1,
     "uid": "56789"
   },
   "sighting9": {
     "locationId": "location4",
     "butterflyId": "butterfly3",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2017-04-07",
     "quantity": 1,
     "uid": "56789"
   },
   "sighting10": {
     "locationId": "location2",
     "butterflyId": "butterfly2",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2018-21-08",
     "quantity": 1,
     "uid": "56789"
   }
