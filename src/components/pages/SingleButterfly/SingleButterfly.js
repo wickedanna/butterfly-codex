@@ -1,8 +1,15 @@
 import React from 'react';
+import {
+  Map,
+  CircleMarker,
+  TileLayer,
+  Tooltip,
+} from 'react-leaflet';
 
 import butterflyData from '../../../helpers/data/butterflyData';
 import sightingsData from '../../../helpers/data/sightingsData';
 import smash from '../../../helpers/data/smash';
+import data from '../../../helpers/data/cities';
 
 import Sightings from '../../shared/Sightings/Sightings';
 
@@ -44,6 +51,13 @@ class SingleButterfly extends React.Component {
   }
 
   render() {
+    const centerLat = (data.minLat + data.maxLat) / 2;
+    const distanceLat = data.maxLat - data.minLat;
+    const bufferLat = distanceLat * 0.05;
+    const centerLong = (data.minLong + data.maxLong) / 2;
+    const distanceLong = data.maxLong - data.minLong;
+    const bufferLong = distanceLong * 0.15;
+
     const { butterfly, sightings } = this.state;
 
     const buildSightings = sightings.map((sighting) => (
@@ -71,6 +85,33 @@ class SingleButterfly extends React.Component {
         <p className="mx-3 basic-info-text">{butterfly.preferredClimate} {butterfly.commonlyFound}</p>
         <h4 className="mx-3 basic-info-title">Lifespan</h4>
         <p className="mx-3 basic-info-text">{butterfly.lifespan} {butterfly.activeWhen}</p>
+        </div>
+        <div className="butterfly-population-map">
+        <Map
+          style={{ height: '480px', width: '100%' }}
+          zoom={1}
+          center={[centerLat, centerLong]}
+          bounds={[
+            [data.minLat - bufferLat, data.minLong - bufferLong],
+            [data.maxLat + bufferLat, data.maxLong + bufferLong],
+          ]}>
+            <TileLayer url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            {data.city.map((city) => {
+              return (
+              <CircleMarker
+                center={[city.coordinates[1], city.coordinates[0]]}
+                radius={20 * Math.log(city.population / 10000000)}
+                fillOpacity={0.5}
+                stroke={false}
+              >
+                  <Tooltip direction="right" offset={[-8, -2]} opacity={1}>
+                <span>{city.name}: Population {city.population}</span>
+                </Tooltip>
+                </CircleMarker>
+              );
+            })
+          }
+        </Map>
         </div>
         <div className="butterfly-sightings container d-flex flex-wrap">
           <h3 className="mx-3 butterfly-sightings-title">Sightings:</h3>
