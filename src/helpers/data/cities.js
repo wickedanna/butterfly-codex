@@ -15,10 +15,10 @@ const data = {
     { name: 'Kolkata', coordinates: [88.3639, 22.5726], population: 14667000 },
     { name: 'Istanbul', coordinates: [28.9784, 41.0082], population: 13287000 },
   ],
-  minLat: -6.1751,
-  maxLat: 55.7558,
-  minLong: 37.6173,
-  maxLong: 139.6917,
+  minLat: 31.203405,
+  maxLat: 48.458352,
+  minLong: -130.465079,
+  maxLong: -74.095885,
 };
 
 export default data;

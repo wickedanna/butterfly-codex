@@ -85,8 +85,8 @@ class SingleButterfly extends React.Component {
         <p className="mx-3 basic-info-text">{butterfly.preferredClimate} {butterfly.commonlyFound}</p>
         <h4 className="mx-3 basic-info-title">Lifespan</h4>
         <p className="mx-3 basic-info-text">{butterfly.lifespan} {butterfly.activeWhen}</p>
-        </div>
-        <div className="butterfly-population-map">
+        <h4 className="m-2 basic-info-title">Population Map:</h4>
+
         <Map
           style={{ height: '480px', width: '100%' }}
           zoom={1}
@@ -96,8 +96,7 @@ class SingleButterfly extends React.Component {
             [data.maxLat + bufferLat, data.maxLong + bufferLong],
           ]}>
             <TileLayer url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            {data.city.map((city) => {
-              return (
+            {data.city.map((city) => (
               <CircleMarker
                 center={[city.coordinates[1], city.coordinates[0]]}
                 radius={20 * Math.log(city.population / 10000000)}
@@ -108,11 +107,11 @@ class SingleButterfly extends React.Component {
                 <span>{city.name}: Population {city.population}</span>
                 </Tooltip>
                 </CircleMarker>
-              );
-            })
+            ))
           }
         </Map>
         </div>
+
         <div className="butterfly-sightings container d-flex flex-wrap">
           <h3 className="mx-3 butterfly-sightings-title">Sightings:</h3>
         {buildSightings}

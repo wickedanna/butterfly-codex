@@ -2,31 +2,37 @@
   "location1": {
     "city": "Nashville",
     "state": "Tennessee",
-    "zipCode": 37214
+    "latitude": 36.1627,
+    "longitude": 86.7816
   },
   "location2": {
     "city": "San Fransisco",
     "state": "California",
-    "zipCode": 94106
+    "latitude": 37.7749,
+    "longitude": 122.4194
   },
   "location3": {
     "city": "Boston",
     "state": "Massachusetts",
-    "zipCode": 12116
+    "latitude": 42.3601,
+    "longitude": 71.0589
   },
   "location4": {
     "city": "Austin",
     "state": "Texas",
-    "zipCode": 37214
+    "latitude": 30.2672,
+    "longitude": 97.7431
   },
   "location5": {
     "city": "Cheyenne",
     "state": "Wyoming",
-    "zipCode": 82001
+    "latitude": 41.1400,
+    "longitude": 104.8202
   },
   "location6": {
     "city": "Cedar Rapids",
     "state": "Iowa",
-    "zipCode": 52227
+    "latitude": 41.9779,
+    "longitude": 91.6656
   }
 }
