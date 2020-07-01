@@ -9,7 +9,6 @@ import {
 import butterflyData from '../../../helpers/data/butterflyData';
 import sightingsData from '../../../helpers/data/sightingsData';
 import smash from '../../../helpers/data/smash';
-import data from '../../../helpers/data/cities';
 
 import Sightings from '../../shared/Sightings/Sightings';
 
@@ -19,6 +18,11 @@ class SingleButterfly extends React.Component {
   state = {
     butterfly: {},
     sightings: [],
+    mapLocations: [],
+    minLat: 31.203405,
+    maxLat: 48.458352,
+    minLong: -130.465079,
+    maxLong: -74.095885,
   }
 
   getSingleButterfly = () => {
@@ -39,9 +43,18 @@ class SingleButterfly extends React.Component {
       .catch((err) => console.error('could not get sightings by butterfly id: ', err));
   }
 
+  getPopulationData = () => {
+    const { butterflyId } = this.props.match.params;
+    smash.getPopulationData(butterflyId)
+      .then((mapLocations) => this.setState({ mapLocations }))
+      .catch((err) => console.error('could not get population data: ', err));
+  }
+
   componentDidMount() {
     this.getSingleButterfly();
     this.getButterflySightings();
+    this.getPopulationData();
+    console.log('hello!');
   }
 
   removeSighting = (sightingId) => {
@@ -51,14 +64,22 @@ class SingleButterfly extends React.Component {
   }
 
   render() {
-    const centerLat = (data.minLat + data.maxLat) / 2;
-    const distanceLat = data.maxLat - data.minLat;
-    const bufferLat = distanceLat * 0.05;
-    const centerLong = (data.minLong + data.maxLong) / 2;
-    const distanceLong = data.maxLong - data.minLong;
-    const bufferLong = distanceLong * 0.15;
+    const {
+      butterfly,
+      sightings,
+      mapLocations,
+      minLat,
+      minLong,
+      maxLat,
+      maxLong,
+    } = this.state;
 
-    const { butterfly, sightings } = this.state;
+    const centerLat = (minLat + maxLat) / 2;
+    const distanceLat = maxLat - minLat;
+    const bufferLat = distanceLat * 0.05;
+    const centerLong = (minLong + maxLong) / 2;
+    const distanceLong = maxLong - minLong;
+    const bufferLong = distanceLong * 0.15;
 
     const buildSightings = sightings.map((sighting) => (
       <Sightings key={sighting.id} sighting={sighting} removeSighting={this.removeSighting} />
@@ -91,20 +112,20 @@ class SingleButterfly extends React.Component {
           zoom={1}
           center={[centerLat, centerLong]}
           bounds={[
-            [data.minLat - bufferLat, data.minLong - bufferLong],
-            [data.maxLat + bufferLat, data.maxLong + bufferLong],
+            [minLat - bufferLat, minLong - bufferLong],
+            [maxLat + bufferLat, maxLong + bufferLong],
           ]}>
             <TileLayer url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            {data.city.map((city) => (
+            {mapLocations.map((city) => (
               <CircleMarker
                 center={[city.coordinates[1], city.coordinates[0]]}
-                radius={20 * Math.log(city.population / 10000000)}
+                radius={city.sightings}
                 fillOpacity={0.75}
                 stroke={false}
                 color='#EEB61B'
               >
                   <Tooltip direction="right" offset={[-8, -2]} opacity={1}>
-                <span>{city.name}: Population {city.population}</span>
+                <span>{city.name}: Sightings {city.sightings}</span>
                 </Tooltip>
                 </CircleMarker>
             ))
