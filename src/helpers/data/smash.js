@@ -46,4 +46,13 @@ const getFinalSightingsWithUid = (uid) => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getFinalSightingsWithButterflyId, getFinalSightingsWithUid };
+const getPopulationData = (butterflyId) => new Promise((resolve, reject) => {
+  // get sightings by butterflyId (need to get by butterflyId b/c they are showing on the single view)
+  // get locations
+  // use a forEach loop and call the single instance singleLocation or something
+  // declare a variable called location and do the {...singleLocation} copy thing (spread operator)
+  // then create a new key called coordinates that is an array, which will be the longitude and latitude values from the location object
+  // something about the sightings data to get the quantities to pass into the location object
+});
+
+export default { getFinalSightingsWithButterflyId, getFinalSightingsWithUid, getPopulationData };
