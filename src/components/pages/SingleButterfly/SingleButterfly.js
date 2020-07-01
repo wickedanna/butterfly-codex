@@ -54,7 +54,6 @@ class SingleButterfly extends React.Component {
     this.getSingleButterfly();
     this.getButterflySightings();
     this.getPopulationData();
-    console.log('hello!');
   }
 
   removeSighting = (sightingId) => {
@@ -118,8 +117,9 @@ class SingleButterfly extends React.Component {
             <TileLayer url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             {mapLocations.map((city) => (
               <CircleMarker
-                center={[city.coordinates[1], city.coordinates[0]]}
-                radius={city.sightings}
+                key={city.id}
+                center={[city.coordinates[0], city.coordinates[1]]}
+                radius={2 * city.sightings}
                 fillOpacity={0.75}
                 stroke={false}
                 color='#EEB61B'

@@ -3,31 +3,31 @@
     "city": "Nashville",
     "state": "Tennessee",
     "latitude": 36.1627,
-    "longitude": 86.7816
+    "longitude": -86.7816
   },
   "location2": {
     "city": "San Fransisco",
     "state": "California",
     "latitude": 37.7749,
-    "longitude": 122.4194
+    "longitude": -122.4194
   },
   "location3": {
     "city": "Boston",
     "state": "Massachusetts",
     "latitude": 42.3601,
-    "longitude": 71.0589
+    "longitude": -71.0589
   },
   "location4": {
     "city": "Austin",
     "state": "Texas",
     "latitude": 30.2672,
-    "longitude": 97.7431
+    "longitude": -97.7431
   },
   "location5": {
     "city": "Cheyenne",
     "state": "Wyoming",
     "latitude": 41.1400,
-    "longitude": 104.8202
+    "longitude": -104.8202
   },
   "location6": {
     "city": "Cedar Rapids",
