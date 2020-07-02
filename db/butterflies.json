@@ -63,5 +63,44 @@
     "mainImage": "https://images.unsplash.com/photo-1591876875646-f54e64542c0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80",
     "lifespan": "The eggs take 3 to 8 days to develop and hatch, and the larvae stage can take 15 to 25 days to develop to its final stage. The pupae stage typically lasts anywhere from 8 to 15 days, while the adult lives 2 to 5 weeks during mating season. Monarchs born in late summer or fall do not breed until after overwinding migration and can live up to 6-8 months.",
     "activeWhen": "Monarch butterflies are most active during spring and summer months, laying eggs and breeding during these seasons. They do spend winters in warmer climates, in Mexico and the California coast especially. When spring comes, they migrate north and lay eggs along the way."
+  },
+  "butterfly6": {
+    "commonName": "Empress Leilia",
+    "scientificName": "Asterocampa Leila",
+    "type": "Brush-Footed",
+    "adultAppearance": "Male and female Empress Leilia butterflies are quite similar in appearance. Their dorsal wing surfaces are a richly colored chestnut, while their ventral wing surfaces (which show when the butterflies have their wings closed) are a much duller and more heavily patterned brown and gray.",
+    "larvaeAppearance": "The larvae of the Empress Leilia are yellow-green with shiny black heads, they turn pale green with a pair of yellowish dorsal stripes with rough skin and a pair of horns; the pupae are green.",
+    "diet": "sap, dung, rotten fruit",
+    "preferredClimate": "The Empress Leila butterflies prefer areas of thorn scrub, washes, canyons, and streamsides.",
+    "commonlyFound": "They are typically found in Southern Arizona, Southern Texas and central Mexico.",
+    "mainImage": "https://bugguide.net/images/cache/I0T/QG0/I0TQG0DQ909RMQ1RLQYRXQJRIQ00W00060DRFKBRM0VRRQ1RJKDQX0URX0FQ80NRG0JQG0UR0Q9RRQNRRQARRQWRRQ.jpg",
+    "lifespan": "There is very little information available on the lifespan of the Empress Leila. My best guess would be 10-25 days from egg to adult, with an adult lifespan of 2-4 weeks. There are typically 5 broods a year.",
+    "activeWhen": "Empress Leilia’s tend to be active all year in Southern Texas, but are only active in Southern Arizona from April to November."
+  },
+  "butterfly7": {
+    "commonName": "Little Yellow",
+    "scientificName": "Eurema lisa",
+    "type": "Sulphur",
+    "adultAppearance": "Upperside of male forewing yellow with wide black apex. Hindwing with black border. Female yellow or white (rare) with black borders. Both sexes with small black spot in forewing cell.",
+    "larvaeAppearance": "The eggs are small, yellow-green, and conical in shape, while the larvae are long, green and fuzzy. There is not much information available on the pupae, but they are clear by the time the adult is ready to emerge.",
+    "diet": "goldenrods, asters",
+    "preferredClimate": "The Little Yellow butterflies like dry, open areas like roadsides, sandy fields, abandoned fields, along railroad tracks, and open woods.",
+    "commonlyFound": "These butterflies are found in the Eastern United States all the way to the Mid-West, as far as Arizona, with highest populations being in the southeastern United States.",
+    "mainImage": "https://www.butterfliesandmoths.org/sites/default/files/styles/bamona_scale_and_crop_480x360/public/bamona_images/img_8954a.jpg?itok=AeZSDOsk",
+    "lifespan": "There is a lack of information about the lifespan of the Little Yellow. Based on previous research, a good estimate would be 10-15 days to go from egg to adult, and 2-3 weeks of life for the adults.",
+    "activeWhen": "These butterflies are most active from late spring to early fall."
+  },
+  "butterfly8": {
+    "commonName": "Zebra Swallowtail",
+    "scientificName": "Eurytides marcellus",
+    "type": "Swallowtail",
+    "adultAppearance": "The upper surface of the wings is white with black stripes. The hindwings have very long tails. The lower surface of the wings is similar except there is a red stripe running through the middle of the hind wing.",
+    "larvaeAppearance": "The eggs are pale green and perfectly round, the newly hatched larvae are small and black with protruding spikes. As the larvae age, yellow and blue stripes appear and the spikes recede. The oldest larvae turn pale green with a large, dark stripe just behind its head. The pupae are bright, leaf green, and turn brown as they get closer to emerging.",
+    "diet": "blueberry, blackberry, lilac, redbud, viper’s bugloss, verbena, dogbane, milkweed",
+    "preferredClimate": "These butterflies are generally found  in moist, low woodlands near swamps and rivers. The adults fly to nectar plants in open fields and bushy areas.",
+    "commonlyFound": "These butterflies are found the Eastern United States, as far north as Massachusetts, or Minnesota, and as far south as the Floridian peninsula.",
+    "mainImage": "https://www.butterfliesandmoths.org/sites/default/files/styles/bamona_scale_and_crop_480x360/public/bamona_images/2ebeae33-1bca-4cd6-8e82-7879c24dfae6.jpeg?itok=6V0_ThPE",
+    "lifespan": "The typical lifespan of the adult Zebra Swallowtail is 6 months in its natural habitat.",
+    "activeWhen": "Zebra Swallowtails are most active in April to August in the northern part of their range, and March to December in the southern portion of the range."
   }
 }

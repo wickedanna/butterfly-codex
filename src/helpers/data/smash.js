@@ -46,4 +46,27 @@ const getFinalSightingsWithUid = (uid) => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getFinalSightingsWithButterflyId, getFinalSightingsWithUid };
+// { name: 'Delhi', coordinates: [77.1025, 28.7041], population: 24998000 },
+
+const getPopulationData = (butterflyId) => new Promise((resolve, reject) => {
+  sightingsData.getSightingsByButterflyId(butterflyId)
+    .then((sightingsResponse) => {
+      locationData.getLocations().then((locationsResponse) => {
+        const data = [];
+        locationsResponse.forEach((location) => {
+          const newLocation = {};
+          newLocation.name = location.city;
+          newLocation.coordinates = [location.latitude, location.longitude];
+          const selectedSightings = sightingsResponse.filter((x) => x.locationId === location.id);
+          const reducer = (a, b) => a + b.quantity;
+          const total = selectedSightings.reduce(reducer, 0);
+          newLocation.sightings = total;
+          data.push(newLocation);
+        });
+        resolve(data);
+      });
+    })
+    .catch((err) => reject(err));
+});
+
+export default { getFinalSightingsWithButterflyId, getFinalSightingsWithUid, getPopulationData };

@@ -13,6 +13,9 @@ const getButterflies = () => new Promise((resolve, reject) => {
           allButterflies[butterflyId].id = butterflyId;
           butterflies.push(allButterflies[butterflyId]);
         });
+        // eslint-disable-next-line no-confusing-arrow
+        butterflies.sort((a, b) => (a.commonName > b.commonName) ? 1 : -1);
+        // look at locationData.js for explanation of how above works
       }
       resolve(butterflies);
     })

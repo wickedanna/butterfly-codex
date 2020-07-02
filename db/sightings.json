@@ -1,72 +1,919 @@
 {
   "sighting1": {
     "locationId": "location1",
-    "butterflyId": "butterfly3",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
+    "butterflyId": "butterfly1",
+    "dateSeen": "2018-30-04",
+    "quantity": 3,
     "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
   },
   "sighting2": {
-    "locationId": "location3",
-    "butterflyId": "butterfly2",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
-    "uid": "12345"
+    "locationId": "location1",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-15-06",
+    "quantity": 3,
+    "uid": "34567"
   },
   "sighting3": {
-    "locationId": "location5",
-    "butterflyId": "butterfly3",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
-    "uid": "12345"
+    "locationId": "location13",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2019-19-05",
+    "quantity": 4,
+    "uid": "56789"
   },
   "sighting4": {
-    "locationId": "location6",
-    "butterflyId": "butterfly4",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
+    "locationId": "location13",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2016-13-07",
+    "quantity": 6,
     "uid": "12345"
   },
   "sighting5": {
-    "locationId": "location4",
-    "butterflyId": "butterfly3",
-    "dateSeen": "06/23/2018",
-    "quantity": 1,
-    "uid": "12345"
+    "locationId": "location15",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-03-06",
+    "quantity": 4,
+    "uid": "56789"
   },
   "sighting6": {
-    "locationId": "location2",
+    "locationId": "location15",
     "butterflyId": "butterfly1",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
-    "uid": "12345"
+    "dateSeen": "2019-20-07",
+    "quantity": 2,
+    "uid": "56789"
   },
   "sighting7": {
-    "locationId": "location1",
-    "butterflyId": "butterfly2",
-    "dateSeen": "06/17/2019",
+    "locationId": "location14",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2019-31-03",
     "quantity": 1,
-    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+    "uid": "56789"
   },
   "sighting8": {
-    "locationId": "location3",
-    "butterflyId": "butterfly5",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
+    "locationId": "location14",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-30-06",
+    "quantity": 7,
     "uid": "56789"
   },
   "sighting9": {
-    "locationId": "location4",
-    "butterflyId": "butterfly3",
-    "dateSeen": "06/17/2019",
-    "quantity": 1,
+    "locationId": "location16",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2019-22-07",
+    "quantity": 6,
     "uid": "56789"
   },
   "sighting10": {
+    "locationId": "location16",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-28-07",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting11": {
+    "locationId": "location33",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-05-06",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting12": {
+    "locationId": "location33",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2018-03-06",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting13": {
+    "locationId": "location34",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2018-09-05",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting14": {
+    "locationId": "location34",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2019-03-06",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting15": {
+    "locationId": "location37",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-04-05",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting16": {
+    "locationId": "location37",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-14-06",
+    "quantity": 6,
+    "uid": "12345"
+  },
+  "sighting17": {
+    "locationId": "location38",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2017-03-06",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting18": {
+    "locationId": "location39",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2018-04-06",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting19": {
+    "locationId": "location39",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2019-15-05",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting20": {
+    "locationId": "location40",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2018-29-04",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting21": {
+    "locationId": "location40",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2019-08-07",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting22": {
+    "locationId": "location42",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2017-29-05",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting23": {
+    "locationId": "location42",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2017-01-06",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting24": {
+    "locationId": "location44",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2020-08-04",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting25": {
+    "locationId": "location44",
+    "butterflyId": "butterfly1",
+    "dateSeen": "2018-20-07",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting26": {
+    "locationId": "location1",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-16-05",
+    "quantity": 3,
+    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+  },
+  "sighting27": {
+    "locationId": "location1",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-10-07",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting28": {
     "locationId": "location2",
     "butterflyId": "butterfly2",
-    "dateSeen": "06/17/2019",
+    "dateSeen": "2019-20-04",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting29": {
+    "locationId": "location4",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-03-08",
     "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting30": {
+    "locationId": "location4",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2018-20-07",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting31": {
+    "locationId": "location6",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-04-06",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting32": {
+    "locationId": "location11",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-04-08",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting33": {
+    "locationId": "location11",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2018-30-04",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting34": {
+    "locationId": "location27",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2018-20-05",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting35": {
+    "locationId": "location34",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-22-07",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting36": {
+    "locationId": "location34",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-09-05",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting37": {
+    "locationId": "location37",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-19-08",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting38": {
+    "locationId": "location37",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2018-05-06",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting39": {
+    "locationId": "location39",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-03-07",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting40": {
+    "locationId": "location39",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-20-06",
+    "quantity": 12,
+    "uid": "56789"
+  },
+  "sighting41": {
+    "locationId": "location40",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-29-03",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting42": {
+    "locationId": "location41",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2018-05-06",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting43": {
+    "locationId": "location45",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-12-08",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting44": {
+    "locationId": "location45",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-01-08",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting45": {
+    "locationId": "location46",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2018-04-07",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting46": {
+    "locationId": "location47",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2019-15-03",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting47": {
+    "locationId": "location47",
+    "butterflyId": "butterfly2",
+    "dateSeen": "2020-21-07",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting48": {
+    "locationId": "location2",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2019-05-04",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting49": {
+    "locationId": "location2",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2020-25-06",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting50": {
+    "locationId": "location8",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2018-03-07",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting51": {
+    "locationId": "location8",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2019-21-07",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting52": {
+    "locationId": "location17",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2020-08-07",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting53": {
+    "locationId": "location18",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2018-19-05",
+    "quantity": 10,
+    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+  },
+  "sighting54": {
+    "locationId": "location23",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2020-21-07",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting55": {
+    "locationId": "location23",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2018-30-08",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting56": {
+    "locationId": "location24",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2020-18-07",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting57": {
+    "locationId": "location31",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2020-21-06",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting58": {
+    "locationId": "location31",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2019-28-07",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting59": {
+    "locationId": "location36",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2018-22-05",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting60": {
+    "locationId": "location43",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2020-21-07",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting61": {
+    "locationId": "location43",
+    "butterflyId": "butterfly3",
+    "dateSeen": "2019-27-08",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting62": {
+    "locationId": "location7",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2018-03-05",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting63": {
+    "locationId": "location7",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2020-01-07",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting64": {
+    "locationId": "location8",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2019-30-05",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting65": {
+    "locationId": "location12",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2020-03-08",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting66": {
+    "locationId": "location12",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2019-07-07",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting67": {
+    "locationId": "location16",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2020-11-06",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting68": {
+    "locationId": "location17",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2018-17-06",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting69": {
+    "locationId": "location21",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2019-31-07",
+    "quantity": 11,
+    "uid": "56789"
+  },
+  "sighting70": {
+    "locationId": "location21",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2018-22-08",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting71": {
+    "locationId": "location23",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2019-26-07",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting72": {
+    "locationId": "location25",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2020-23-06",
+    "quantity": 1,
+    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+  },
+  "sighting73": {
+    "locationId": "location25",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2018-19-08",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting74": {
+    "locationId": "location28",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2019-29-08",
+    "quantity": 2,
+    "uid": "56789"
+  },
+  "sighting75": {
+    "locationId": "location31",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2017-01-09",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting76": {
+    "locationId": "location31",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2020-14-07",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting77": {
+    "locationId": "location36",
+    "butterflyId": "butterfly4",
+    "dateSeen": "2018-25-08",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting78": {
+    "locationId": "location1",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2018-04-07",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting79": {
+    "locationId": "location1",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2019-19-08",
+    "quantity": 4,
+    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+  },
+  "sighting80": {
+    "locationId": "location2",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2030-03-06",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting81": {
+    "locationId": "location2",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2019-20-05",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting82": {
+    "locationId": "location4",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2018-29-08",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting83": {
+    "locationId": "location4",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2020-25-05",
+    "quantity": 10,
+    "uid": "56789"
+  },
+  "sighting84": {
+    "locationId": "location22",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2019-23-06",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting85": {
+    "locationId": "location27",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2019-24-08",
+    "quantity": 12,
+    "uid": "56789"
+  },
+  "sighting86": {
+    "locationId": "location34",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2019-03-05",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting87": {
+    "locationId": "location41",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2020-02-06",
+    "quantity": 11,
+    "uid": "56789"
+  },
+  "sighting88": {
+    "locationId": "location41",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2020-01-09",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting89": {
+    "locationId": "location47",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2019-25-07",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting90": {
+    "locationId": "location47",
+    "butterflyId": "butterfly5",
+    "dateSeen": "2020-26-04",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting91": {
+    "locationId": "location4",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2020-26-04",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting92": {
+    "locationId": "location4",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2019-24-06",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting93": {
+    "locationId": "location4",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2018-02-08",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting94": {
+    "locationId": "location4",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2019-28-06",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting95": {
+    "locationId": "location22",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2020-04-06",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting96": {
+    "locationId": "location22",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2019-30-07",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting97": {
+    "locationId": "location22",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2018-30-06",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting98": {
+    "locationId": "location22",
+    "butterflyId": "butterfly6",
+    "dateSeen": "2020-13-04",
+    "quantity": 10,
+    "uid": "56789"
+  },
+  "sighting99": {
+    "locationId": "location1",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2019-19-04",
+    "quantity": 12,
+    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+  },
+  "sighting100": {
+    "locationId": "location1",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-21-05",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting101": {
+    "locationId": "location4",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2018-20-07",
+    "quantity": 15,
+    "uid": "56789"
+  },
+  "sighting102": {
+    "locationId": "location6",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-03-05",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting103": {
+    "locationId": "location11",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-08-07",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting104": {
+    "locationId": "location11",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-13-04",
+    "quantity": 1,
+    "uid": "56789"
+  },
+  "sighting105": {
+    "locationId": "location21",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2019-02-06",
+    "quantity": 10,
+    "uid": "56789"
+  },
+  "sighting106": {
+    "locationId": "location22",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-10-06",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting107": {
+    "locationId": "location32",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2018-01-08",
+    "quantity": 10,
+    "uid": "56789"
+  },
+  "sighting108": {
+    "locationId": "location33",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2019-30-05",
+    "quantity": 14,
+    "uid": "56789"
+  },
+  "sighting109": {
+    "locationId": "location34",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-30-06",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting110": {
+    "locationId": "location35",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2019-22-05",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting111": {
+    "locationId": "location39",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2020-10-04",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting112": {
+    "locationId": "location40",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2019-23-05",
+    "quantity": 12,
+    "uid": "56789"
+  },
+  "sighting113": {
+    "locationId": "location43",
+    "butterflyId": "butterfly7",
+    "dateSeen": "2018-13-03",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting114": {
+    "locationId": "location1",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2018-14-04",
+    "quantity": 7,
+    "uid": "sztmNehLVSZQibnoTwDXQFLgEHI2"
+  },
+  "sighting115": {
+    "locationId": "location3",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-12-03",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting116": {
+    "locationId": "location8",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-19-04",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting117": {
+    "locationId": "location10",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-21-06",
+    "quantity": 12,
+    "uid": "56789"
+  },
+  "sighting118": {
+    "locationId": "locatio11",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-19-05",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting119": {
+    "locationId": "location13",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-31-03",
+    "quantity": 4,
+    "uid": "56789"
+  },
+  "sighting120": {
+    "locationId": "location14",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-19-07",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting121": {
+    "locationId": "location34",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-01-04",
+    "quantity": 8,
+    "uid": "56789"
+  },
+  "sighting122": {
+    "locationId": "location35",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-29-05",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting123": {
+    "locationId": "location39",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2018-27-03",
+    "quantity": 6,
+    "uid": "56789"
+  },
+  "sighting124": {
+    "locationId": "location40",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-13-08",
+    "quantity": 11,
+    "uid": "56789"
+  },
+  "sighting125": {
+    "locationId": "location41",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-17-09",
+    "quantity": 9,
+    "uid": "56789"
+  },
+  "sighting126": {
+    "locationId": "location42",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2018-01-09",
+    "quantity": 5,
+    "uid": "56789"
+  },
+  "sighting127": {
+    "locationId": "location43",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-14-07",
+    "quantity": 3,
+    "uid": "56789"
+  },
+  "sighting128": {
+    "locationId": "location44",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-13-04",
+    "quantity": 11,
+    "uid": "56789"
+  },
+  "sighting129": {
+    "locationId": "location45",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-15-05",
+    "quantity": 10,
+    "uid": "56789"
+  },
+  "sighting130": {
+    "locationId": "location46",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2020-21-06",
+    "quantity": 7,
+    "uid": "56789"
+  },
+  "sighting131": {
+    "locationId": "location47",
+    "butterflyId": "butterfly8",
+    "dateSeen": "2019-21-05",
+    "quantity": 5,
     "uid": "56789"
   }
 }
