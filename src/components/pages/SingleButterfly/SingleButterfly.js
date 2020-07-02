@@ -119,7 +119,7 @@ class SingleButterfly extends React.Component {
               <CircleMarker
                 key={city.id}
                 center={[city.coordinates[0], city.coordinates[1]]}
-                radius={2 * city.sightings}
+                radius={100 * city.sightings / 94}
                 fillOpacity={0.75}
                 stroke={false}
                 color='#EEB61B'

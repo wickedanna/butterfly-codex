@@ -33,258 +33,258 @@
     "city": "Cedar Rapids",
     "state": "Iowa",
     "latitude": 41.9779,
-    "longitude": 91.6656
+    "longitude": -91.6656
   },
   "location7": {
     "city": "Camden",
     "state": "Maine",
     "latitude": 44.2098,
-    "longitude": 69.0648
+    "longitude": -69.0648
   },
   "location8": {
     "city": "Midland",
     "state": "Michigan",
     "latitude": 43.6165,
-    "longitude": 84.2472
+    "longitude": -84.2472
   },
   "location9": {
     "city": "Bear",
     "state": "Delaware",
     "latitude": 39.6293,
-    "longitude": 75.6583
+    "longitude": -75.6583
   },
   "location10": {
     "city": "Greenwich",
     "state": "Connecticut",
     "latitude": 41.0262,
-    "longitude": 73.6282
+    "longitude": -73.6282
   },
   "location11": {
     "city": "State College",
     "state": "Pennsylvania",
     "latitude": 40.7934,
-    "longitude": 77.8600
+    "longitude": -77.8600
   },
   "location12": {
     "city": "Ithica",
     "state": "New York",
     "latitude": 42.4440,
-    "longitude": 76.5019
+    "longitude": -76.5019
   },
   "location13": {
     "city": "Hoboken",
     "state": "New Jersey",
     "latitude": 40.7440,
-    "longitude": 74.0324
+    "longitude": -74.0324
   },
   "location14": {
     "city": "Montepelier",
     "state": "Vermont",
     "latitude": 44.2601,
-    "longitude": 72.5754
+    "longitude": -72.5754
   },
   "location15": {
     "city": "Coventry",
     "state": "Rhode Island",
     "latitude": 41.6886,
-    "longitude": 71.5642
+    "longitude": -71.5642
   },
   "location16": {
     "city": "Londonderry",
     "state": "New Hampshire",
     "latitude": 42.8651,
-    "longitude": 71.3739
+    "longitude": -71.3739
   },
   "location17": {
     "city": "Spokane",
     "state": "Washington",
     "latitude": 47.6588,
-    "longitude": 117.4260
+    "longitude": -117.4260
   },
   "location18": {
     "city": "Bend",
     "state": "Oregon",
     "latitude": 44.0582,
-    "longitude": 121.3153
+    "longitude": -121.3153
   },
   "location19": {
     "city": "Elko",
     "state": "Nevada",
     "latitude": 40.8324,
-    "longitude": 115.7631
+    "longitude": -115.7631
   },
   "location20": {
     "city": "Idaho Falls",
     "state": "Idaho",
     "latitude": 43.2230,
-    "longitude": 112.0408
+    "longitude": -112.0408
   },
   "location21": {
     "city": "Ogden",
     "state": "Utah",
     "latitude": 41.2230,
-    "longitude": 111.9739
+    "longitude": -111.9739
   },
   "location22": {
     "city": "Sedona",
     "state": "Arizona",
     "latitude": 34.8697,
-    "longitude": 111.7610
+    "longitude": -111.7610
   },
   "location23": {
     "city": "Helena",
     "state": "Montana",
     "latitude": 46.5891,
-    "longitude": 112.0391
+    "longitude": -112.0391
   },
   "location24": {
     "city": "Devils Lake",
     "state": "North Dakota",
     "latitude": 48.1128,
-    "longitude": 98.8651
+    "longitude": -98.8651
   },
   "location25": {
     "city": "Deadwood",
     "state": "South Dakota",
     "latitude": 44.3767,
-    "longitude": 103.7296
+    "longitude": -103.7296
   },
   "location26": {
     "city": "Castle Rock",
-    "state": "South Dakota",
+    "state": "Colorado",
     "latitude": 39.3722,
-    "longitude": 104.8561
+    "longitude": -104.8561
   },
   "location27": {
     "city": "Roswell",
     "state": "New Mexico",
     "latitude": 33.3943,
-    "longitude": 104.5230
+    "longitude": -104.5230
   },
   "location28": {
     "city": "Hastings",
     "state": "Nebraska",
     "latitude": 40.5863,
-    "longitude": 98.3899
+    "longitude": -98.3899
   },
   "location29": {
     "city": "Dodge City",
     "state": "Kansas",
     "latitude": 37.7528,
-    "longitude": 100.0171
+    "longitude": -100.0171
   },
   "location30": {
     "city": "Stillwater",
     "state": "Oklahoma",
     "latitude": 36.1156,
-    "longitude": 97.0584
+    "longitude": -97.0584
   },
-  "locatio31": {
+  "location31": {
     "city": "St. Cloud",
     "state": "Minnesota",
     "latitude": 45.5579,
-    "longitude": 94.1632
+    "longitude": -94.1632
   },
   "location32": {
     "city": "Independence",
     "state": "Missouri",
     "latitude": 39.0911,
-    "longitude": 94.4155
+    "longitude": -94.4155
   },
   "location33": {
     "city": "Eureka Springs",
     "state": "Arkansas",
     "latitude": 36.4012,
-    "longitude": 93.7380
+    "longitude": -93.7380
   },
   "location34": {
     "city": "Laurel",
     "state": "Mississippi",
     "latitude": 31.6941,
-    "longitude": 89.1306
+    "longitude": -89.1306
   },
   "location35": {
     "city": "Baton Rouge",
     "state": "Louisiana",
     "latitude": 30.4515,
-    "longitude": 91.1871
+    "longitude": -91.1871
   },
   "location36": {
     "city": "Eau Claire",
     "state": "Wisconsin",
     "latitude": 44.8113,
-    "longitude": 91.4985
+    "longitude": -91.4985
   },
   "location37": {
     "city": "Orland Park",
     "state": "Illinois",
     "latitude": 41.6303,
-    "longitude": 87.8539
+    "longitude": -87.8539
   },
   "location38": {
     "city": "Warsaw",
     "state": "Indiana",
     "latitude": 41.2381,
-    "longitude": 85.8530
+    "longitude": -85.8530
   },
   "location39": {
     "city": "Cave City",
     "state": "Kentucky",
     "latitude": 37.1367,
-    "longitude": 85.9569
+    "longitude": -85.9569
   },
   "location40": {
     "city": "Fairhope",
     "state": "Alabama",
     "latitude": 30.5230,
-    "longitude": 87.9033
+    "longitude": -87.9033
   },
   "location41": {
     "city": "Stone Mountain",
     "state": "Georgia",
     "latitude": 33.8082,
-    "longitude": 84.1702
+    "longitude": -84.1702
   },
   "location42": {
     "city": "Shaker Heights",
     "state": "Ohio",
     "latitude": 41.4739,
-    "longitude": 81.5371
+    "longitude": -81.5371
   },
   "location43": {
     "city": "Harpers Ferry",
     "state": "West Virginia",
     "latitude": 39.3253,
-    "longitude": 77.7389
+    "longitude": -77.7389
   },
   "location44": {
     "city": "Alexandria",
     "state": "Virginia",
     "latitude": 38.8048,
-    "longitude": 77.0469
+    "longitude": -77.0469
   },
   "location45": {
     "city": "Emerald Isle",
     "state": "North Carolina",
     "latitude": 34.6779,
-    "longitude": 76.9508
+    "longitude": -76.9508
   },
   "location46": {
     "city": "Mount Pleasant",
     "state": "South Carolina",
     "latitude": 32.8323,
-    "longitude": 79.8284
+    "longitude": -79.8284
   },
   "location47": {
     "city": "Clearwater",
     "state": "Florida",
     "latitude": 27.9659,
-    "longitude": 82.8001
+    "longitude": -82.8001
   },
   "location48": {
     "city": "Frederick",
     "state": "Maryland",
     "latitude": 39.4143,
-    "longitude": 77.4105
+    "longitude": -77.4105
   }
 }
