@@ -24,7 +24,7 @@ class Sightings extends React.Component {
          <div className="card-body">
             <h5 className="card-title">{sighting.butterflyCommonName}</h5>
             <p className="card-text">{sighting.city}, {sighting.state}</p>
-            <p className="card-text">{sighting.dateSeen}</p>
+            <p className="card-text">{sighting.dateSeen.split('-').reverse().join('/')}</p>
             <p className="card-text">Quantity: {sighting.quantity}</p>
             {
               sighting.uid === uid
