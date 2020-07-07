@@ -84,6 +84,15 @@ class SingleButterfly extends React.Component {
       <Sightings key={sighting.id} sighting={sighting} removeSighting={this.removeSighting} />
     ));
 
+    const createDietList = () => {
+      const dietArray = butterfly.diet ? butterfly.diet.split(', ') : [];
+      return (
+        <ul>
+          {dietArray.map((diet) => <li>{diet}</li>)}
+        </ul>
+      );
+    };
+
     return (
       <div className="SingleButterfly container">
         <div className="butterfly-info col-12 mt-3 d-flex flex-wrap">
@@ -100,7 +109,9 @@ class SingleButterfly extends React.Component {
         <h5 className="mx-3 basic-info-subtitle">Egg, Larvae, Pupae</h5>
         <p className="mx-3 basic-info-text">{butterfly.larvaeAppearance}</p>
         <h4 className="mx-3 basic-info-title">What do they Eat?</h4>
-        <p className="mx-3 basic-info-text">{butterfly.diet}</p>
+        <div className="diet-list">
+          {createDietList()}
+        </div>
         <h4 className="mx-3 basic-info-title">What kind of area do these butterflies prefer?</h4>
         <p className="mx-3 basic-info-text">{butterfly.preferredClimate} {butterfly.commonlyFound}</p>
         <h4 className="mx-3 basic-info-title">Lifespan</h4>

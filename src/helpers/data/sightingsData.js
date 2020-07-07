@@ -14,7 +14,8 @@ const getSightingsByUid = (uid) => new Promise((resolve, reject) => {
           sightings.push(allSightings[sightingId]);
         });
       }
-      resolve(sightings);
+      const finalSightings = sightings.sort((a, b) => b.dateSeen - a.dateSeen);
+      resolve(finalSightings);
     })
     .catch((err) => reject(err));
 });
@@ -27,10 +28,12 @@ const getSightingsByButterflyId = (butterflyId) => new Promise((resolve, reject)
       if (allSightings) {
         Object.keys(allSightings).forEach((sightingId) => {
           allSightings[sightingId].id = sightingId;
+          allSightings[sightingId].dateSeen = new Date(allSightings[sightingId].dateSeen);
           sightings.push(allSightings[sightingId]);
         });
       }
-      resolve(sightings);
+      const finalSightings = sightings.sort((a, b) => b.dateSeen - a.dateSeen);
+      resolve(finalSightings);
     })
     .catch((err) => reject(err));
 });
