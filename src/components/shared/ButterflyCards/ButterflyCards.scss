@@ -5,6 +5,10 @@
   .butterfly-card {
     background-color: $light-purple;
     border: 1px $mid-purple solid;
+    height: 100%;
+    a {
+      height: 38px;
+    }
   }
   .butterfly-card-text {
     h5 {

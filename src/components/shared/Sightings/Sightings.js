@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import moment from 'moment';
 
 import authData from '../../../helpers/data/authData';
 import sightingShape from '../../../helpers/propz/sightingShape';
@@ -24,7 +25,7 @@ class Sightings extends React.Component {
          <div className="card-body">
             <h5 className="card-title">{sighting.butterflyCommonName}</h5>
             <p className="card-text">{sighting.city}, {sighting.state}</p>
-            <p className="card-text">{sighting.dateSeen.split('-').reverse().join('/')}</p>
+            <p className="card-text">{moment(sighting.dateSeen).format('L')}</p>
             <p className="card-text">Quantity: {sighting.quantity}</p>
             {
               sighting.uid === uid
