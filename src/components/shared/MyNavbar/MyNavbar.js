@@ -1,5 +1,4 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import {
   Collapse,
@@ -16,31 +15,20 @@ import 'firebase/auth';
 
 import './MyNavbar.scss';
 
-class MyNavbar extends React.Component {
-  static propTypes = {
-    authed: PropTypes.bool.isRequired,
-  }
+const MyNavbar = (props) => {
+  const { authed } = props;
+  const [isOpen, setIsOpen] = useState(false);
 
-  state = {
-    isOpen: false,
-  }
-
-  logMeOut = (e) => {
+  const logMeOut = (e) => {
     e.preventDefault();
     firebase.auth().signOut();
-  }
+  };
 
-  toggle = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  }
+  const toggle = () => setIsOpen(!isOpen);
 
-  render() {
-    const { isOpen } = this.state;
-
-    const buildNavbar = () => {
-      const { authed } = this.props;
-      if (authed) {
-        return (
+  const buildNavbar = () => {
+    if (authed) {
+      return (
           <Nav className="ml-auto" navbar>
           <NavItem>
             <NavLink tag={RRNavLink} to="/new-sighting">+ Sighting</NavLink>
@@ -49,26 +37,25 @@ class MyNavbar extends React.Component {
             <NavLink tag={RRNavLink} to="/my-sightings">My Sightings</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink onClick={this.logMeOut}>Logout</NavLink>
+            <NavLink onClick={logMeOut}>Logout</NavLink>
           </NavItem>
         </Nav>
-        );
-      }
-      return <Nav className="ml-auto" navbar></Nav>;
-    };
+      );
+    }
+    return <Nav className="ml-auto" navbar></Nav>;
+  };
 
-    return (
+  return (
       <div className="MyNavbar">
         <Navbar dark expand="md">
         <NavbarBrand tag={RRNavLink} to="/home">Butterfly Codex</NavbarBrand>
-        <NavbarToggler onClick={this.toggle} />
+        <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           {buildNavbar()}
         </Collapse>
       </Navbar>
       </div>
-    );
-  }
-}
+  );
+};
 
 export default MyNavbar;
